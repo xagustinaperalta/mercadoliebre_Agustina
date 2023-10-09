@@ -1,0 +1,367 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+  }
+
+body {
+    font-family: "Roboto", sans-serif;
+    background-color: #ebebeb;
+  }
+  
+h3 {
+    font-size: 24px;
+  }
+  
+p {
+      font-size: 12px;
+  }
+  
+div.top-header{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5%;
+    width: 100%;
+  }
+
+header{
+      background-color: #eac926; 
+}    
+
+header ul{
+  margin: 10px;
+}
+
+header div.logo{
+      width: 50%;
+      padding: 10px;
+}
+
+header ul li{
+      list-style: none;
+      font-size: 10px;
+}
+
+header ul li a{
+  text-decoration: none;
+  color:#000;
+  display: inline-block;
+  padding: 5px 0px;
+}
+
+header nav{
+    font-size: 12px;
+    margin-left: 20px;
+    display: none;
+}   
+
+  
+header .form .input {
+    background-color: #fff;
+    border:none;
+    outline: none;
+    color: #666;
+    padding: 1.5px;
+    border-radius: 6px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+header .form{
+    align-items: center;
+    padding: 2px;
+    font-size: 11px;
+    display: flex;
+    flex-wrap: nowrap;
+    width: 50%;
+} 
+
+header .form .submit {
+    background-color: #fff;
+    border: none;
+    color: #666;
+    padding: 8px;
+    border-radius: 6px;
+    border-bottom-left-radius: 0px;
+    border-top-left-radius: 0px;
+}
+ 
+header div.top-header p.copy-header {
+      width: 100%;
+      text-align: center;
+      margin-top: 10px; 
+  }
+  
+div.burguer-menu{
+      text-align: center;
+      display: block;
+  }
+  
+div.burger-menu i {
+      background-color: #0044aa;
+      color: #fff;
+      display: block;
+      max-width: 50px;
+      padding: 15px 0;
+      border-radius: 5px;
+      text-align: center;
+      font-size: 20px;
+      margin: auto;
+    }  
+
+main {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+        justify-content: center;
+    }
+
+div.last-views,
+div.offers{
+    display: flex;
+    flex-wrap: wrap;
+}
+  
+.price,
+.discount{
+      font-size: 18px;
+      color: black; 
+  } 
+  
+.price{
+    width: 30%;
+}
+  
+.discount{
+      width: 70%;
+  }
+  
+article div.main-article h4.description{
+      font-size: 16px;
+      font-weight: normal;
+      color: #666;
+      padding-top: 20px;
+      display: none;
+  }
+  
+  
+  h3 {
+      font-size: 24px;
+      color:#666;
+  }
+  
+  section.offer-banner img {
+      width: 100%;
+  }
+
+
+  main section article {
+      background-color: #fff;
+      margin: 15px;
+      text-align:left;
+      border-top: 1px solid #ebebeb;
+      width: 90%;
+      position: relative;
+  }
+  
+  main section article img {
+      width: 100%;
+  }
+  
+  main section article i,
+  .discount {
+    color: #39b54a;
+  }
+  
+  main section article i {
+    display: block;  
+    font-size: 16px;
+    padding: 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #39b54a;
+    background-color: #fff;
+    border-radius: 50%;
+    position: absolute;
+    right: 20px;
+    top: -15px;
+    
+}
+
+article div.main-article {
+    width: 100%;
+    border-top: 1px solid #ebebeb;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: baseline;
+    position: relative;
+}
+
+  main section h3 {
+      margin: 20px 0px;
+    }
+  
+  footer {
+      padding-top: 10px;
+      margin: auto;
+      width: 100%;
+      justify-content: center;
+
+  }
+
+  footer section {
+      text-align: center;
+      color:#666;
+      background-color: white;
+      padding: 10px 20px ;
+      border: solid 15px white; 
+  }
+  
+  footer section div.info-icon{
+      color: #0044aa;
+      font-size: 2em;
+  }
+
+  main.register div{
+    border:none;
+  }
+  
+@media (min-width: 361px) {
+  header div.top-header p.copy-header{
+        display: block;
+        align-items: center;
+  }   
+  header nav.main-navbar{
+      display: flex;
+      justify-content: space-between;
+      flex-wrap: wrap;
+  }
+  .main-navbar ul{
+    display: flex;
+  }
+  .main-navbar li{
+    margin: 0 5px;
+  }
+
+  header .form{
+        width: 100%;
+        position: relative;
+        margin-left: 5px;
+        margin-top: 5px;
+    }
+    
+  header .form .input{
+    width: 90%;
+    font-size: 12px;
+    padding: 5px;
+  }
+  header .form .submit{
+    font-size: 12px;
+    padding: 5px;
+
+  }
+
+  header .form .input,
+  header .form .submit{
+        border: 1px solid #000;
+        border-radius: 0%;
+  }
+
+  header div.burger-menu{
+        display: none;
+  }
+
+  main section article {
+          box-shadow: 0px 0px 10px rgb(100, 100, 100);
+    }
+
+  header div.top-header{
+        display: inline-flex;
+        justify-content: space-around;
+        flex-wrap: nowrap;
+    }
+
+  main section div.products{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+    }
+    
+  main section div.products article{
+        width: 40%;
+    }
+  
+    .price,
+    .discount{
+        width: 50%;
+    } 
+
+    article div.main-article h4.description{
+        display: block;
+    }
+
+  }
+  
+  @media (min-width: 769px) {
+    main section article .description{
+      position: relative;
+      opacity: 0;
+      transition: opacity 300ms;
+  }
+
+  main section article:hover .description{
+    opacity: 1;
+}
+
+    .top-header, 
+    .main-navbar{
+      max-width: 1200px;
+      margin: auto;
+    }
+
+  main section div.products article{
+    width: 20%;
+    box-shadow: none;
+    transition: box-shadow 300ms;
+    cursor: pointer;
+}
+
+main section div.products article:hover{
+  box-shadow: 0px 0px 10px rgb(100, 100, 100);  
+}
+main section div.products article.fa-truck{
+  transition: transform 300ms;
+}
+
+main section div.products article:hover .fa-truck{
+  transform: rotate(-90deg);
+}
+
+footer.home {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+footer.home section.footer-info{
+  width: 33%;
+}
+ 
+footer.home section.copyright{
+  width: 100%;
+  display: flex;
+  justify-content:flex-start; 
+}
+
+div.info-icon:hover{
+  color:#39b54a
+}
+div.info-icon{
+  transform: color 200ms;
+}
+  }
+

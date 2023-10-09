@@ -1,0 +1,71 @@
+main.register .register-form{
+    display: block;
+}
+
+.copy{
+    font-size: 15px;
+    font-weight: bold;
+}
+
+main.register .register-form .control,
+main.login .login-form .control-login,
+.profile{
+    margin-top:10px;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+
+div.interests{
+    text-align: initial;  
+}
+
+button.button-register{
+    width: 30%;
+}
+
+button.button-login{
+    background-color:#0044aa;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+    width: 100%;
+}
+
+button.button-register{
+    background-color:darkgray;
+    color: #ffffff;
+    border-radius: 5px;
+    border: none;
+}
+
+div.interests,
+button.button-register,
+button.button-login{
+    padding: 10px;
+    margin-top: 10px;
+}
+
+
+    @media (min-width: 769px) {
+    
+     main.login form button.button-register{
+            transition: color, background-color 300ms;
+        }
+
+    main.login form button.button-register:hover{
+        background-color: #0022AA;
+        color: #ffffff;
+    } 
+    button.button-login{
+        width: 100%;
+    }
+
+    
+
+}
+
