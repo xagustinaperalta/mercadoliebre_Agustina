@@ -1,5 +1,8 @@
 main.register .register-form{
     display: block;
+    margin: auto;
+    margin-top: 5%;
+    margin-bottom: 5%;
 }
 
 .copy{
@@ -10,18 +13,17 @@ main.register .register-form{
 main.register .register-form .control,
 main.login .login-form .control-login,
 .profile{
-    margin-top:10px;
-    width: 100%;
-    display: flex;
-    flex-wrap: wrap;
+    width: 80%;
     border: none;
     border-radius: 5px;
     padding: 10px;
+    margin: auto;
+    margin-top: 3%;
 }
 
-
 div.interests{
-    text-align: initial;  
+    text-align: center;
+
 }
 
 button.button-register{
@@ -37,10 +39,11 @@ button.button-login{
 }
 
 button.button-register{
-    background-color:darkgray;
+    background-color: darkgray;
     color: #ffffff;
     border-radius: 5px;
     border: none;
+    margin-bottom: 5%;
 }
 
 div.interests,
@@ -61,18 +64,26 @@ button.button-login{
         box-shadow: 0px 0px 10px rgb(100, 100, 100);
     }
 
-    main.login form button.button-register{
-            transition: color, background-color 300ms;
-        }
+    main.login{
+        margin-top: 8%;
+        margin-bottom: 8%;
+    }
 
-    main.login form button.button-register:hover{
+    main.register form button.button-register{
+        transition: background-color 300ms;
+        transition: color 300ms;
+    }
+
+    main.register form button.button-register:hover{
         background-color: #0022AA;
         color: #ffffff;
     } 
     button.button-login{
-        width: 100%;
+        width: 80%;
+        margin-bottom: 3%;
     }
 
+    
     
 
 }

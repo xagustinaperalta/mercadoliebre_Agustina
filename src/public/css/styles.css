@@ -14,7 +14,7 @@ h3 {
   }
   
 p {
-      font-size: 12px;
+      font-size: 13px;
   }
   
 div.top-header{
@@ -39,7 +39,7 @@ header div.logo{
 
 header ul li{
   list-style: none;
-  font-size: 10px;
+  font-size: 12px;
 }
 
 header ul li a{
@@ -244,7 +244,7 @@ article div.main-article {
   header .form{
         width: 100%;
         position: relative;
-        margin-left: 5px;
+        margin-left: 10%;
         margin-top: 5px;
     }
     
