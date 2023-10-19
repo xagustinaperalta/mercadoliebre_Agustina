@@ -2,10 +2,10 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
   }
 
 body {
-    font-family: "Roboto", sans-serif;
     background-color: #ebebeb;
   }
   
@@ -76,7 +76,7 @@ header .form{
     width: 50%;
 } 
 
-header .form .submit {
+header .form button.submit {
     background-color: #fff;
     border: none;
     color: #666;
@@ -207,7 +207,6 @@ article div.main-article {
       margin: auto;
       width: 100%;
       justify-content: center;
-
   }
 
   footer section {
@@ -257,14 +256,14 @@ article div.main-article {
     font-size: 12px;
     padding: 5px;
   }
-  header .form .submit{
+  header .form button.submit{
     font-size: 12px;
     padding: 5px;
 
   }
 
   header .form .input,
-  header .form .submit{
+  header .form button.submit{
         border: 1px solid #000;
         border-radius: 0%;
   }
@@ -279,7 +278,7 @@ article div.main-article {
 
   header div.top-header{
         width: 100%;
-        display: inline-flex;
+        display: flex;
         justify-content: space-around;
         flex-wrap: nowrap;
     }
