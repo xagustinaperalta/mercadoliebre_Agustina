@@ -52,8 +52,12 @@ button.button-login{
 
 
     @media (min-width: 769px) {
-    
-     main.login form button.button-register{
+    main.login{
+        width: 50%;
+        padding: 12px, 10px;
+    }
+
+    main.login form button.button-register{
             transition: color, background-color 300ms;
         }
 
